@@ -1,0 +1,72 @@
+body{
+    background-color: #CB9D2C;
+    margin:0;
+    padding:0;
+}
+
+.blockbuttonreza075{
+    width: 675px;
+    height: 40px;
+    border: solid 2px white;
+    border-radius:30px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:15px;
+    text-align: center;
+    padding-top: 16px;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+.blockbuttonreza075:hover{
+    background-color: white;
+    color:#CB9D2C
+}
+
+.headerreza075, .socmedreza075, .footerreza075{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+.headerreza075 img{
+    width:96px;
+    height:96px;
+    border-radius:50%;
+    margin-top:60px;
+}
+.headerreza075 h1{
+    font-size:18px;
+}
+
+.headerreza075 p{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.socmedreza075 img{
+    width:30px;
+    height:30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 20px;
+}
+
+.socmedreza075 img:hover{
+    width:33px;
+    height:33px;
+}
+
+.footerreza075 img{
+    width:140px;
+    height:70px;
+    margin-top:15px;
+    margin-bottom:60px;
+}
+
+a:link,:visited{
+    text-decoration: none;
+}

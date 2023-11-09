@@ -1,0 +1,27 @@
+.container-fluid{
+    font-family: 'Nunito';
+    color:#4F4F4F
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+p{
+    font-size: 24px;
+}
+
+.bottom_right_picture{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
