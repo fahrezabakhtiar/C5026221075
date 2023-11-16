@@ -22,4 +22,17 @@ class DosenController extends Controller
 
     	return view('biodata',['nama' => $nama, 'alamat' => $alamat, 'umur' => $umur]);
     }
+
+    public function showtime($jam){
+        return $jam;
+    }
+    public function formulir(){
+    	return view('formulir');
+    }
+    public function proses(Request $request){
+        $nama = $request->input('nama');
+        $ipk = $request->input('ipk');
+     	$alamat = $request->input('alamat');
+        return "Nama : ".$nama.", Alamat : ".$alamat. ", IPK : " .$ipk. ", Isi Asli : " .$request;
+    }
 }
