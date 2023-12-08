@@ -71,7 +71,7 @@ Route::get('/blog/kontak', function(){
     return view('kontak');
 });
 
-// Route CRUD
+// Route CRUD Pegawai
 Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
 Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
 Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
@@ -91,3 +91,14 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index3'
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+
+// Route CRUD Modem
+Route::get('/modem','App\Http\Controllers\ModemController@indexmodem');
+Route::get('/modem/tambahmodem','App\Http\Controllers\ModemController@tambahmodem');
+Route::post('/modem/store','App\Http\Controllers\ModemController@store');
+Route::get('/modem/editmodem/{id}','App\Http\Controllers\ModemController@editmodem');
+Route::post('/modem/update','App\Http\Controllers\ModemController@update');
+Route::get('/modem/hapus/{id}','App\Http\Controllers\ModemController@hapus');
+Route::get('/modem/cari/','App\Http\Controllers\ModemController@cari');
+Route::get('/modem/viewmodem/{id}','App\Http\Controllers\ModemController@viewmodem');
