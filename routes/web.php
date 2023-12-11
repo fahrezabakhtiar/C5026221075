@@ -102,3 +102,8 @@ Route::post('/modem/update','App\Http\Controllers\ModemController@update');
 Route::get('/modem/hapus/{id}','App\Http\Controllers\ModemController@hapus');
 Route::get('/modem/cari/','App\Http\Controllers\ModemController@cari');
 Route::get('/modem/viewmodem/{id}','App\Http\Controllers\ModemController@viewmodem');
+
+// Route Kategori
+Route::get('/kategori', 'App\Http\Controllers\KategoriController@indexkategori');
+Route::post('/submitkategori', [KategoriController::class, 'submitKategori'])->name('submit.form');
+
