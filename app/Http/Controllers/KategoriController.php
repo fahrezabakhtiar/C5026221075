@@ -21,6 +21,6 @@ class KategoriController extends Controller
 
         $selectedOptionId = $request->input('indexkategori');
 
-        return view('kategoriDipilih')->with('selectedOptionId', $selectedOptionId);
+        return view('submitKategori')->with('selectedOptionId', $selectedOptionId);
     }
 }

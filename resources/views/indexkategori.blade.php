@@ -5,7 +5,7 @@
     <br/>
     <p>Pilih Kategori</p>
 
-    <form action="{{ route('submit.form') }}" method="post">
+    <form action="/submitKategori" method="post">
         @csrf
         <select class="form-control" name="indexkategori" id="indexkategori">
             @foreach($kategori as $id => $nama)

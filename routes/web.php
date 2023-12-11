@@ -105,5 +105,5 @@ Route::get('/modem/viewmodem/{id}','App\Http\Controllers\ModemController@viewmod
 
 // Route Kategori
 Route::get('/kategori', 'App\Http\Controllers\KategoriController@indexkategori');
-Route::post('/submitkategori', [KategoriController::class, 'submitKategori'])->name('submit.form');
+Route::post('/submitKategori', 'App\Http\Controllers\KategoriController@submitKategori');
 
