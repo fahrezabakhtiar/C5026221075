@@ -1,5 +1,5 @@
 @extends('master2')
-@section('judulhalaman','Data Modem')
+@section('judulhalaman','Kategori')
 
 @section('konten')
     <br/>
